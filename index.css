@@ -14,14 +14,129 @@ body{
 #heading {
     background-image: url("./images/Silvi\ Clouds\ Wallpaper\ Color_\ Yacht\ Blue.jpeg");
     width: 1474;
-    height: 140px;
+    height: 160;
     text-align: center;
     color: #DAD8BD;
     font-family: "Julius Sans One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 50px;
+    font-size: 55px;
     text-shadow: 0 4px 8px black;
-    padding-top: 25px;
+    padding-top: 10px;
 }
 
+#cards{
+    width: 1412;
+    height: 703;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+    padding-left: 5;
+}
+
+.about-me {
+    width: 325px;
+    height: 510px;
+    text-align: center;
+    box-shadow: 0 4px 10px black;
+    padding: 20px 30px;
+    margin-top: 10px;
+}
+
+.about-me h2{
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.about-me img {
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 10px black;
+}
+
+.about-me p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    max-width: 28ch;
+    margin: 0 auto 35px auto;
+}
+
+.projects{
+    width: 325px;
+    height: 510px;
+    text-align: center;
+    box-shadow: 0 4px 10px black;
+    padding: 20px 30px;
+    margin-top: 10px;
+}
+
+.projects img {
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 10px black;
+}
+
+.projects h2{
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.projects li{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    max-width: 28ch;
+    margin: 20px auto 35px auto;
+}
+
+.next-up {
+    width: 325px;
+    height: 510px;
+    text-align: center;
+    box-shadow: 0 4px 10px black;
+    padding: 20px 30px;
+    margin-top: 10px;
+}
+
+.next-up img {
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 10px black;
+}
+
+.next-up h2{
+    font-family: "Julius Sans One", sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.next-up li{
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    max-width: 28ch;
+    margin: 20px auto 35px auto;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 60px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
