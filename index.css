@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1440;
+    height: 1024;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #DAD8BD;
+}
+
+#heading {
+    background-image: url("./images/Silvi\ Clouds\ Wallpaper\ Color_\ Yacht\ Blue.jpeg");
+    width: 1474;
+    height: 140px;
+    text-align: center;
+    color: #DAD8BD;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-shadow: 0 4px 8px black;
+    padding-top: 25px;
+}
+
